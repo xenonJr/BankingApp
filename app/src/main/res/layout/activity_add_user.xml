@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/scr_background"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".AddUser">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="Name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="Email"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/white"
+        android:hint="Phone Number"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/set_bday"
+        android:layout_width="230dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/long_round_button"
+        android:text="Pick Birthdate"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_height="50dp"></Button>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="230dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/long_round_button"
+        android:text="Add User"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_height="50dp"></Button>
+
+
+</LinearLayout>
