@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/scr_background"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="165dp"
+        android:layout_height="75dp">
+        <TextView
+            android:id="@+id/user_name"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="CSE 489">
+        </TextView>
+
+        <TextView
+            android:id="@+id/user_phone"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:text="Lecture 1 : Linear Layout">
+        </TextView>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/user_bday"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="CSE 489">
+    </TextView>
+
+
+</LinearLayout>

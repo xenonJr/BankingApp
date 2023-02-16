@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/scr_background"
-    tools:context=".HomeActivity">
+    tools:context=".View.HomeActivity">
 
     <ImageView
         android:layout_gravity="center"
@@ -41,11 +41,24 @@
     </Button>
 
     <Button
-        android:id="@+id/continue_guest"
+        android:id="@+id/show_users"
         android:layout_width="230dp"
         android:layout_margin="10dp"
         android:background="@drawable/long_round_button"
         android:text="Show Users"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_height="50dp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/send_sms"
+        android:layout_width="230dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/long_round_button"
+        android:text="Send SMS"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:layout_gravity="center"

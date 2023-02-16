@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:layout_gravity="center"
     android:gravity="center"
-    tools:context=".AddUser">
+    tools:context=".View.AddUser">
 
 
     <EditText
@@ -60,6 +60,7 @@
         android:textColor="@color/white"
         android:textColorHint="@color/white" />
 
+
     <Button
         android:id="@+id/set_bday"
         android:layout_width="230dp"
@@ -77,6 +78,18 @@
         android:layout_margin="10dp"
         android:background="@drawable/long_round_button"
         android:text="Add User"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:layout_height="50dp"></Button>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/sendSMS"
+        android:layout_width="230dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/long_round_button"
+        android:text="Send SMS"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:layout_gravity="center"
